@@ -8,6 +8,7 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background: none;
+	font-family: 'Quattrocento', serif;
 }
 
 .full {
@@ -20,9 +21,20 @@ body {
 
 .intro {
 	font-size: 95px;
+	font-family: 'Oswald', sans-serif;
+	margin: 0 auto;
 }
 
 .tagline {
-	font-size: 40px;
+	font-size: 20px;
 	color: #E7E7E7;
+	border-top: dotted 1px #E7E7E7;
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.main-introduction{
+	width: 50%;
+	margin: 150px auto 0;
 }
