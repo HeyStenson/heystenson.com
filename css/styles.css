@@ -27,7 +27,12 @@ body {
 
 #link-menu a {
 	color: #E7E7E7;
-	padding: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#link-menu:first-child{
+	padding-left: 0;
 }
 
 .intro {
@@ -44,6 +49,20 @@ body {
 .content{
 	margin: -140px auto 0;
 	width: 50%;
+}
+
+.work-content {
+	margin: -140px auto 0;
+	width: 80%;
+}
+
+.work-card {
+	padding-right: 15px;
+}
+
+.thumbnail {
+	width: 265px;
+	padding: 10px;
 }
 
 .tagline {
