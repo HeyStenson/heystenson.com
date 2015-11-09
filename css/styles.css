@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -12,29 +6,114 @@ body {
 }
 
 .full {
-  background: url(../img/jasper.jpg) no-repeat center center fixed; 
+  /*background: url(../img/jasper.jpg) no-repeat center center fixed; */
+  background-color: #ff9999;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+.mainmenu {
+	margin: 85px auto 0;
+	padding-top: 15px;
+	font-size: 25px;
+}
+
+#link-menu li {
+	display: inline;
+	color: #E7E7E7;
+}
+
+#link-menu a {
+	color: #E7E7E7;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#link-menu:first-child{
+	padding-left: 0;
+}
+
 .intro {
 	font-size: 95px;
 	font-family: 'Oswald', sans-serif;
+	border-top: dotted 1px #E7E7E7;
+	border-bottom: dotted 1px #E7E7E7;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 50%;
 	margin: 0 auto;
+}
+
+.content{
+	margin: -140px auto 0;
+	width: 50%;
+}
+
+.work-content {
+	margin: -140px auto 0;
+	width: 80%;
+}
+
+.work-card {
+	padding-right: 15px;
+}
+
+.thumbnail {
+	width: 265px;
+	padding: 10px;
+}
+
+.thumbnail img {
+	height: 180px;
+}
+
+.thumbnail h3 {
+	margin-top: 0;
 }
 
 .tagline {
 	font-size: 20px;
+}
+
+.head-text {
+	font-size: 30px;
+}
+
+.head-text, .tagline {
 	color: #E7E7E7;
-	border-top: dotted 1px #E7E7E7;
-	margin-top: 15px;
-	padding-top: 15px;
 	padding-left: 15px;
 }
 
-.main-introduction{
-	width: 50%;
-	margin: 150px auto 0;
+#headshot {
+	width: 175px;
+	margin-right: 15px;
+}
+
+#contact a .fa {
+	color: #E7E7E7;
+	font-size: 55px;
+	padding: 25px;
+}
+
+/*Section code*/
+.section { 
+	z-index: 1;
+	min-height:420px;
+	width: 100%; 
+	overflow:auto;
+	height:100%;
+	padding-top:100px;
+	padding-bottom:50px; 
+	display:none;
+	top:0;
+} 
+@media (min-width: 768px) {
+	.section { padding-top:160px;}
+}
+
+/* Show one of sections */
+#head { 
+	display: block;
 }
