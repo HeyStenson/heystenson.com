@@ -6,7 +6,8 @@ body {
 }
 
 .full {
-  background: url(../img/jasper.jpg) no-repeat center center fixed; 
+  /*background: url(../img/jasper.jpg) no-repeat center center fixed; */
+  background-color: #ff9999;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,12 +20,14 @@ body {
 	font-size: 25px;
 }
 
-.mainmenu ul {
-	margin-bottom: 0;
+#link-menu li {
+	display: inline;
+	color: #E7E7E7;
 }
 
-.mainmenu li {
-	display: inline;
+#link-menu a {
+	color: #E7E7E7;
+	padding: 15px;
 }
 
 .intro {
@@ -49,6 +52,16 @@ body {
 	padding-left: 15px;
 }
 
+#headshot {
+	width: 175px;
+	margin-right: 15px;
+}
+
+a .fa {
+	color: #E7E7E7;
+	font-size: 55px;
+	padding: 25px;
+}
 
 /*Section code*/
 .section { 

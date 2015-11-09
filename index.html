@@ -22,12 +22,14 @@
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <nav class="mainmenu text-center">
         <div class="container">
-            <ul role="menu">
+            <ul role="menu" id="link-menu">
                 <li><a href="#head">Hello</a> |</li>
                 <li><a href="#about">About Me</a> | </li>
                 <li><a href="#work">My Work</a> | </li>
@@ -43,7 +45,7 @@
     <section class="section" id="head">
         <div class="container">
             <div class="row content">
-                <p class="tagline">I'm Heather Stenson! I'm a full-stack developer, a voracious learner, and Ruby nerd. I'm often found building things, reading books, running runs, and/or petting cats.
+                <p class="tagline">I'm Heather Stenson! I'm a full-stack developer, a voracious learner, and Ruby nerd. I'm often found building things, reading books, running runs, and/or petting <a href="jack.html" target="blank">cats</a>.
                 </p>
             </div>
             <!-- /.row -->
@@ -55,7 +57,9 @@
     <section class="section" id="about">
         <div class="container">
             <div class="row content">
-                <p class="tagline">Hi, I'm Heather.  I am a librarian turned full-stack developer - and those two fields have a lot more in common that most people think! I'm passionate about creating ways of connecting people with information - and connecting people with other people - using current technologies. <br><br> <span>What are we going to build together?</span></p>
+                <img src="img/heather-headshot.jpg" alt="Heather Stenson" class="img-responsive pull-left" id="headshot">
+                <p class="tagline">
+                I am a librarian turned full-stack developer - and those two fields have a lot more in common that most people think! I'm passionate about creating ways of connecting people with information - and connecting people with other people - using current technologies.</p> <p class="text-center tagline">What are we going to build together?</p>
             </div>
             <!-- /.row -->
         </div>
@@ -77,11 +81,14 @@
     <section class="section" id="contact">
         <div class="container">
             <div class="row content">
-                <p class="tagline">You should get in touch with me! Or touch me.</p>
-                <a href="#">GitHub</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Twitter</a>
-                <a href="#">Email</a>
+                <p class="tagline text-center">Let's talk!</p>
+                <p class="tagline text-center">
+                <a href="https://github.com/HeyStenson" target="blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/heatherstenson" target="blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/HeyStenson" target="blank"><i class="fa fa-twitter"></i></a>
+                <a href="mailto:hello@heystenson.com"><i class="fa fa-envelope"></i></a></p>
+                <p class="tagline text-center">
+                I also blog intermittently at <a href="http://heystenson.com/blog/" target="blank">Hey Stenson</a>.</p>
             </div>
             <!-- /.row -->
         </div>
