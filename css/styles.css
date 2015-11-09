@@ -65,8 +65,23 @@ body {
 	padding: 10px;
 }
 
+.thumbnail img {
+	height: 180px;
+}
+
+.thumbnail h3 {
+	margin-top: 0;
+}
+
 .tagline {
 	font-size: 20px;
+}
+
+.head-text {
+	font-size: 30px;
+}
+
+.head-text, .tagline {
 	color: #E7E7E7;
 	padding-left: 15px;
 }
@@ -76,7 +91,7 @@ body {
 	margin-right: 15px;
 }
 
-a .fa {
+#contact a .fa {
 	color: #E7E7E7;
 	font-size: 55px;
 	padding: 25px;
